@@ -3,6 +3,10 @@ html, body {
 	font-family: Open Sans;
 }
 
+body {
+	background: url(swirl_@2X.png);
+}
+
 #header {
 	height: 64px;
 	background: #028F68;
