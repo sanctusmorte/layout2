@@ -1,6 +1,6 @@
 html, body {
 	margin: 0;
-	font-family: Open Sans;
+	font-family: Open Sans !important;
 }
 
 
@@ -34,6 +34,7 @@ body {
 	font-size: 16px;
 	font-style: normal;
 	margin-left: 2px;
+	font-family: Open Sans;
 }
 
 #content {
