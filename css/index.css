@@ -4,11 +4,6 @@ html, body {
 }
 
 
-@font-face {
-  font-family: 'OpenSans';
-  src: url('https://sanctusmorte.github.io/layout2/OpenSans.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-
 body {
 	background: url(https://sanctusmorte.github.io/layout2/swirl_@2X.png);
 }
