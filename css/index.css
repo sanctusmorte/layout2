@@ -1,0 +1,146 @@
+html, body {
+	margin: 0;
+	font-family: Open Sans;
+}
+
+#header {
+	height: 64px;
+	background: #028F68;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.14);
+}
+
+.header_title {
+	color: #fff;
+}
+
+.title_ttg {
+	float: left;
+	font-size: 25px;
+	letter-spacing: 3.2px;
+	margin-left: 30px;
+	margin-top: 13px;
+}
+
+.title_plus {
+	float: left;
+	margin-top: 26px;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 16px;
+	font-style: normal;
+	margin-left: 2px;
+}
+
+#content {
+	padding-top: 118px;
+}
+
+.registration_block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 340px;
+	transform: translateX(-50%) translateY(-50%);
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.06);
+	border-radius: 10px;
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.registration_title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 17px;
+	text-align: center;
+	color: #474747;
+	margin-bottom: 24px;
+}
+
+.input_container {
+	width: 260px;
+	height: 44px;
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding-left: 12px;
+	color: #929497;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.button_submit {
+	width: 260px;
+	height: 44px;
+	margin-top: 13px;
+	background: #028F68;
+	border-radius: 3px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	border: 0;
+	margin-bottom: 14px;
+	cursor: pointer;
+}
+
+#reset_password {
+	margin-bottom: 50px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 13px;
+	color: #929497;
+	text-align: center;
+	cursor: pointer;
+}
+
+#back_to_login {
+	display: none;
+	margin-bottom: 50px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 13px;
+	color: #929497;
+	text-align: center;
+	cursor: pointer;
+}
+
+#repit_password {
+	display: none;
+}
+
+#code_reset {
+	display: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 23px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.footer_title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 13px;
+	color: #929497;
+}
