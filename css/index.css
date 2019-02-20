@@ -144,3 +144,26 @@ html, body {
 	font-size: 13px;
 	color: #929497;
 }
+
+@media (max-width: 575.98px) {
+	.registration_block {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: calc(100vw - 40px);
+		transform: translateX(-50%) translateY(-50%);
+		border: 1px solid #E0E0E0;
+		box-sizing: border-box;
+		box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.06);
+		border-radius: 10px;
+		padding-top: 60px;
+		padding-left: 40px;
+		padding-right: 40px;
+		height: calc(100vh - 200px);
+	}
+
+	.button_submit, .input_container {
+		width: 100%;
+	}
+
+}
